@@ -13,25 +13,42 @@
 
 <body>
   <!-- navbar -->
-  <div id="nav">
-    <nav class="navbar navbar-expand-lg bg-body-primary  justify-content-end">
+    <!-- Menu de Navegação -->
+    <nav class="navbar navbar-expand-md bg-black navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar" id="navbarNavAltMarkup">
-          <div class="navbar-nav fonte ">
-            <a class="nav-link active me-4" aria-current="page" href="#">Encontre um mentor</a>
-            <a class="nav-link me-4" href="#">Seja um mentor</a>
-            <a class="nav-link botao me-4" href="#">LOGIN</a>
-            <a class="nav-link botao me-4" href="#">CADASTRE-SE</a>
+          <a class="navbar-brand" href="#">
+              <h1 class="m-0">
+                  <img class="logo" src="/img/logo.png" alt="logotipo">
+              </h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/destinos.html">Mentores</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/promocoes.html">Promoções</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/contato.html">Contato</a>
+                  </li>
+              </ul>
+              <form class="d-flex" role="search">
+                  <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o destino"
+                      aria-label="Pesquisar">
+                  <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
+              </form>
           </div>
-        </div>
       </div>
-    </nav>
-  </div>
+  </nav>
   <!-- fim navbar -->
 
   <header class="nav justify-content-center">

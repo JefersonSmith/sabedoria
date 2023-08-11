@@ -79,3 +79,8 @@
     background-color: #4A90E2;
     color: azure;
 }
+
+.logo {
+    width: 66px;
+    margin-top: -10px;
+}
