@@ -1,0 +1,81 @@
+#nav {
+    margin: 0 100px;
+}
+
+.botao {
+    border-radius: 25px;
+    border: 2px solid #adff2f;
+    /* background: #ADFF2F; */
+    width: 150px;
+    text-align: center;
+
+}
+
+.fonte {
+    color: #313131;
+    font-family: Rajdhani;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px;
+    /* 183.333% */
+}
+
+/* header {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* .principal {
+    padding: 100px;
+} */
+.texto-principal {
+    color: #30353E;
+    font-family: Rajdhani;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 87px;
+    /* 108.75% */
+
+}
+
+#p1 {
+    color: #94989C;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    /* 147.826% */
+}
+
+.pesquisa {
+    border: solid 2px;
+    border-radius: 50px;
+    width: 889px;
+    height: 100px;
+    list-style: none;
+
+}
+
+.busca {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #4A90E2;
+    box-shadow: 0px 20px 30px 0px rgba(24, 30, 54, 0.04);
+}
+
+.mapa {
+    height: 815px;
+}
+
+.novidades {
+    background-color: #4A90E2;
+    color: azure;
+}
