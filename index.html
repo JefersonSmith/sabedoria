@@ -13,63 +13,92 @@
 
 <body>
   <!-- navbar -->
-    <!-- Menu de Navegação -->
-    <nav class="navbar navbar-expand-md bg-light">
-      <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-              <h1 class="m-0">
-                  <img class="logo" src="/img/logo.png" alt="logotipo">
-              </h1>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto">
-                  <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="/destinos.html">Mentores</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="/promocoes.html">Promoções</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="/contato.html">Contato</a>
-                  </li>
-              </ul>
+  <nav class="navbar navbar-expand-md bg-light">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#">
+        <h1 class="m-0 texto-logo">
+          <img class="logo" src="/img/logo.png" alt="logotipo">
+          Sabedoria+
+        </h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item me-4">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link" href="/destinos.html">Sobre Nós</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link botao-nav" href="/promocoes.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link botao-nav" href="/cadastro.html">Cadastro</a>
+          </li>
+        </ul>
 
-          </div>
       </div>
+    </div>
   </nav>
   <!-- fim navbar -->
 
-  <header class="nav justify-content-center">
+  <header class="container justify-content-center">
     <h1 class="text-center my-3 my-xl-5 texto-principal cor-vermelho">
       Aprenda e cresça com nossos melhores mentores
     </h1>
-    <p id="p1">Reserve e conheça mais de 6.086 mentores para mentoria 1:1 em nossa comunidade global.</p>
+    <p id="p1" class="cor-vermelho">Reserve e conheça mais de 6.086 mentores para mentoria 1:1 em nossa comunidade global.</p>
 
     <!-- pesquisa -->
-    <ul class="navbar justify-content-around pesquisa">
-      <li class="nav-item">
-        <a>Pesquise pela área de atuação ou região</a>
-      </li>
-      <li class="navbar-item">
-        <a class="nav-link" href="#">Área</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Região</a>
-      </li>
-      <button class="busca"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-          class="bi bi-search" viewBox="0 0 16 16">
-          <path
-            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-        </svg></button>
-    </ul>
+    <div class="justify-content-center d-flex">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" >Encontre nossos melhores mentores</a>
+        </li>
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Carreira</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Direito</a></li>
+            <li><a class="dropdown-item" href="#">Administração</a></li>
+            <li><a class="dropdown-item" href="#">Marketing</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Programação</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Região</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Rio de Janeiro</a></li>
+            <li><a class="dropdown-item" href="#">São Paulo</a></li>
+            <li><a class="dropdown-item" href="#">Fortaleza</a></li>
+            <li><a class="dropdown-item" href="#">Coritiba</a></li>
+            <li><a class="dropdown-item" href="#">Belo Horizonte</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link botao-arredondado" aria-disabled="true" ><img class="icone-busca" src="/img/icone-busca.png" alt=""></a>
+        </li>
+      </ul>
+      <!-- <ul class="navbar justify-content-around pesquisa">
+        <li class="nav-item">
+          <a>Pesquise pela área de atuação ou região</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-link" href="#">Área</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Região</a>
+        </li>
+        <button class="busca"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-search" viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+          </svg></button>
+      </ul> -->
+    </div>
 
   </header>
 
@@ -109,21 +138,20 @@
   <!-- Formulário de Promoções -->
   <form class="container border  contato-home  p-3 text-center novidades mx-auto">
     <h5>
-        Quer receber nossas novidades, promoções exclusivas e cupons de desconto? Cadastre-se!
+      Quer receber nossas novidades, promoções exclusivas e cupons de desconto? Cadastre-se!
     </h5>
 
     <div class="input-group my-3 justify-content-center ">
-        <input type="email" class="form-control border-secondary rounded-5" style="max-width: 350px;" placeholder="Digite seu e-mail"
-            aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
-        <button type="button" class="btn btn-light botao-laranja rounded-5 border-0 "
-            id="button-addon2">Enviar</button>
+      <input type="email" class="form-control border-secondary rounded-5" style="max-width: 350px;"
+        placeholder="Digite seu e-mail" aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
+      <button type="button" class="btn btn-light botao-laranja rounded-5 border-0 " id="button-addon2">Enviar</button>
     </div>
-</form>
+  </form>
 
-    <!-- Rodapé -->
-    <footer class="text-center bg-light">
-      <p class="card-text py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido pelo Squad 20 | Projeto fictício
-          para Recode Pro 2023.</p>
+  <!-- Rodapé -->
+  <footer class="text-center bg-light">
+    <p class="card-text py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido pelo Squad 20 | Projeto fictício
+      para Recode Pro 2023.</p>
   </footer>
 
 
