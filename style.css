@@ -43,7 +43,6 @@
 }
 
 #p1 {
-    color: #94989C;
     text-align: center;
     font-family: Roboto;
     font-size: 23px;
@@ -93,3 +92,32 @@
 .cor-vermelho {
     color: #FF0751;
 }
+
+.cor-ptera {
+    color: black;
+}
+
+.botao-arredondado {
+    border:solid 1px; 
+    border-radius: 25px;
+    background-color: aqua;
+}
+
+.icone-busca {
+    width: 18px;
+    background-color: aqua;
+}
+
+.botao-nav {
+    border: 1px solid;
+    border-radius: 25px;
+    width: 150px;
+    text-align: center;
+    border-color: #FF0751;
+
+}
+.texto-logo {
+    color: #FF0751;
+    font-size: 12px;
+}
+
