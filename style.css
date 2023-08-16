@@ -8,8 +8,8 @@
     /* background: #ADFF2F; */
     width: 150px;
     text-align: center;
-
 }
+
 
 .fonte {
     color: #313131;
@@ -32,7 +32,6 @@
     padding: 100px;
 } */
 .texto-principal {
-    color: #30353E;
     font-family: Rajdhani;
     font-size: 80px;
     font-style: normal;
@@ -114,6 +113,16 @@
     width: 150px;
     text-align: center;
     border-color: #FF0751;
+    margin-top: 5px;
+
+}
+
+
+.botao-nav2 {
+    width: 150px;
+    text-align: center;
+    margin-top: 5px;
+
 
 }
 .texto-logo {
@@ -121,3 +130,24 @@
     font-size: 12px;
 }
 
+@media (max-width: 800px) {
+
+    .texto-principal {
+        font-family: Rajdhani;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height:57px;
+    }
+
+    #p1 {
+        text-align: center;
+        font-family: Roboto;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        /* 147.826% */
+    }
+
+}
