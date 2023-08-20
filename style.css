@@ -1,3 +1,7 @@
+:root {
+    --vermelho: #FF0751;
+}
+
 #nav {
     margin: 0 100px;
 }
@@ -11,10 +15,11 @@
 
 .botao {
     border-radius: 25px;
-    border: 2px solid #FF0751;
-    /* background: #ADFF2F; */
+    border: 2px solid var(--vermelho);
     width: 150px;
     text-align: center;
+    background-color: transparent;
+
 }
 
 
@@ -28,16 +33,7 @@
     /* 183.333% */
 }
 
-/* header {
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
 
-/* .principal {
-    padding: 100px;
-} */
 .texto-principal {
     font-family: Rajdhani;
     font-size: 80px;
@@ -93,30 +89,20 @@
 }
 
 .cor-vermelho {
-    color: #FF0751;
+    color: var(--vermelho);
 }
 
 .cor-ptera {
     color: black;
 }
 
-.botao-arredondado {
-    border:solid 1px; 
-    border-radius: 25px;
-    background-color: aqua;
-}
-
-.icone-busca {
-    width: 18px;
-    background-color: aqua;
-}
 
 .botao-nav {
     border: 1px solid;
     border-radius: 25px;
     width: 150px;
     text-align: center;
-    border-color: #FF0751;
+    border-color: var(--vermelho);
     margin-top: 5px;
 
 }
@@ -130,7 +116,7 @@
 
 }
 .texto-logo {
-    color: #FF0751;
+    color: var(--vermelho);
     font-size: 22px;
 }
 
@@ -144,6 +130,14 @@
 }
 
 @media (max-width: 800px) {
+
+
+    .bg-principal {
+        background-image: url(/img/bg-principal.svg); 
+        background-repeat: no-repeat; 
+        background-position: top right;
+        background-size: 100%;
+     }
 
     .texto-principal {
         font-family: Rajdhani;
