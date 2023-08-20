@@ -2,9 +2,16 @@
     margin: 0 100px;
 }
 
+.bg-principal {
+   background-image: url(/img/bg-principal.svg); 
+   background-repeat: no-repeat; 
+   background-position: top right;
+   background-size: 60%;
+}
+
 .botao {
     border-radius: 25px;
-    border: 2px solid #adff2f;
+    border: 2px solid #FF0751;
     /* background: #ADFF2F; */
     width: 150px;
     text-align: center;
@@ -73,10 +80,6 @@
     height: 815px;
 }
 
-.novidades {
-    background-color: #4A90E2;
-    color: azure;
-}
 
 .logo {
     width: 66px;
@@ -86,6 +89,7 @@
 .contato-home {
     background-color: #fece02;
     color: #30353E;
+    width: 100%;
 }
 
 .cor-vermelho {
@@ -130,6 +134,15 @@
     font-size: 22px;
 }
 
+.como-funciona {
+    background-color: transparent;
+    border: none;
+}
+
+.foto-mapa {
+    width: 100%;
+}
+
 @media (max-width: 800px) {
 
     .texto-principal {
@@ -149,5 +162,7 @@
         line-height: 34px;
         /* 147.826% */
     }
+
+    
 
 }
