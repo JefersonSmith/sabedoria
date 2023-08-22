@@ -112,8 +112,10 @@
     width: 150px;
     text-align: center;
     margin-top: 5px;
+}
 
-
+.bt-sn{
+    color: black;
 }
 .texto-logo {
     color: var(--vermelho);
@@ -129,7 +131,7 @@
     width: 100%;
 }
 
-
+/* efeito de escrever */
 .escrevendo {
     margin: auto;
     font-family: monospace;
@@ -158,6 +160,7 @@
 
 @media (max-width: 800px) {
 
+/* fim do efeito de escrever */
 
     .bg-principal {
         background-image: url(/img/bg-principal.svg); 
