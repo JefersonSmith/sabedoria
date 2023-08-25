@@ -68,6 +68,18 @@
             color: #FFFFFF;
         }
 
+      
+        h2,
+        h3 {
+            width: 100%;
+            text-align: center;
+        }
+
+        .caixa {
+            width: 100%;
+            text-align: center;
+        }
+
         .caixa_depoimento,
         .caixa {
             margin-top: 30px;
@@ -84,15 +96,24 @@
             margin: 5px;
         }
 
-        h2,
-        h3 {
-            width: 100%;
-            text-align: center;
+        .header_depoimentos{
+            display: grid;
+            grid-template-columns: 40px 1fr;
+            color: white;
+        }
+       
+        .img_depoimentos{
+            border-radius: 95%;
+             width: 100%;
+             height: 70%;
+        }
+        .titulo_depoimentos{
+            font-size: 20px;
         }
 
-        .caixa {
-            width: 100%;
-            text-align: center;
+        .destaque_depoimentos{
+            color: red;
+            font-weight: bolder;
         }
     </style>
 </head>
@@ -143,19 +164,19 @@
             <div class="card-deck">
                 <div class="card">
                     <img class="card-img-top" src="img/pexels-mikhail-nilov-6972768.jpg" alt="mentor 1">
-                    <p class="text-light titulo_img">Mentor 1</p>
+                    <p class="text-light titulo_img">Luciano Santos</p>
                 </div>
                 <div class="card">
                     <img class="card-img-top" src="img/pexels-rdne-stock-project-8124213.jpg" alt="mentor 2">
-                    <p class="text-light titulo_img">Mentor 2</p>
+                    <p class="text-light titulo_img">Diego Netto</p>
                 </div>
                 <div class="card">
                     <img class="card-img-top" src="img/pexels-shvets-production-8899940.jpg" alt="mentor 3">
-                    <p class="text-light titulo_img">Mentor 3</p>
+                    <p class="text-light titulo_img">Manoel Oliveira</p>
                 </div>
                 <div class="card">
                     <img class="card-img-top" src="img/pexels-öznur-şenol-16749856.jpg" alt="mentor 4">
-                    <p class="text-light titulo_img">Mentor 4</p>
+                    <p class="text-light titulo_img">Alexandre Santos</p>
                 </div>
             </div>
 
@@ -169,30 +190,50 @@
                     <div class="card">
 
                         <div class="card-body" style="background-color: #FECE02; max-width: 15rem;">
-                            <h5 class="card-title">Título do card</h5>
-                            <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma
-                                introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.
-                            </p>
-                            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                            <div class="header_depoimentos">
+                                <span>
+                                    <img class="img_depoimentos" src="img/jovem.1.jpg" alt="Imagem de cookie_studio">
+                                </span>
+                                <span><h1 class="titulo_depoimentos">João Lucas</h1>
+                                <p>Engenheiro</p></span>
+                            </div>
+                            <p  class="card-text">A oportunidade de estar no <span class="destaque_depoimentos">sabedoria+</span> hoje me abriu portas e deu outro status
+                                 de competência para mim que sou Engenheiro. Excelente curso, excelente plataforma e atendimento.</p>
+                            
                         </div>
                     </div>
                     <div class="card">
 
                         <div class="card-body" style="background-color: #53DDE0; max-width: 15rem;">
-                            <h5 class="card-title">Título do card</h5>
-                            <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma
-                                introdução a um conteúdo adicional.</p>
-                            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                            <div class="header_depoimentos">
+                                <span>
+                                    <img class="img_depoimentos" src="img/jovem-adulto-se-divertindo-na-festa-branca.jpg">
+                                </span>
+                                <span><h1 class="titulo_depoimentos">Mõnica Alvez</h1>
+                                <p>Pedagoga</p></span>
+                            </div>
+                            <p  class="card-text">Os conteúdos e materiais são muito bem elaborados, professores referência nos assuntos,
+                                 uma aula melhor que a outra, dando mais motivação para estudar cada vez mais. Estou extremamente 
+                                 satisfeita com <span class="destaque_depoimentos">sabedoria+</span>.</p>
+                            
                         </div>
-                    </div>
+                        </div>
+    
                     <div class="card">
 
                         <div class="card-body" style="background-color: #53DDE0; max-width: 15rem;">
-                            <h5 class="card-title">Título do card</h5>
-                            <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma
-                                introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro,
-                                para mostrar a altura igual, em ação.</p>
-                            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                            <div class="header_depoimentos">
+                                <span>
+                                    <img class="img_depoimentos" src="img/jovem.3.webp">
+                                </span>
+                                <span><h1 class="titulo_depoimentos">Guido Santana</h1>
+                                <p>Programador</p></span>
+                            </div>
+                            <p  class="card-text">A <span class="destaque_depoimentos">sabedoria+</span> é um diferencial para qualquer pessoa, pois, além de você ter
+                                 acesso a todos os conteúdos, você participa de uma comunidade com pessoas excepcionais para trocar
+                                  muitas ideias e aumentar o network.</p>
+                            
+                        </div>
                         </div>
                     </div>
                 </div>
