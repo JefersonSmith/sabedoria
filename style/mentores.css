@@ -100,3 +100,16 @@ h3 {
     color: red;
     font-weight: bolder;
 }
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FECE02;
+    margin-top: 20PX;
+    color: black;
+}
+
+.rodape img{
+    cursor: pointer;
+}

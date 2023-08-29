@@ -155,6 +155,19 @@
     background-color: #fc3e77 !important;
 }
 
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FECE02;
+    margin-top: 20PX;
+    color: black;
+}
+
+.rodape img{
+    cursor: pointer;
+}
+
 @keyframes digitando{
     0%{
         width: 0;
