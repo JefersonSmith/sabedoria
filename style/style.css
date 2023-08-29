@@ -142,6 +142,19 @@
     animation: digitando 2.5s steps(14) infinite alternate, piscando 0.5s infinite step-end alternate;
 }
 
+.botao-cadastro2 {
+    border-radius: 15px !important;
+    height: 40px !important;
+    width: 100px !important;
+    color: #FECE02 !important;
+    background-color: #FF0751 !important;
+    font-weight: bold !important;
+}
+
+.botao-cadastro2:hover {
+    background-color: #fc3e77 !important;
+}
+
 @keyframes digitando{
     0%{
         width: 0;
