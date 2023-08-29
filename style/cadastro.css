@@ -139,16 +139,17 @@ input {
     align-items: center;
 }
 
-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.botao-cadastro {
+        border-radius: 15px !important;
+        height: 40px !important;
+        width: 100px !important;
+        color: #FF0751 !important;
+        background-color: #FECE02 !important;
+        font-weight: bold !important;
 }
 
-button:hover {
-    background-color: #0056b3;
+.botao-cadastro:hover {
+    background-color: #ffe46a !important;
 }
+
+
