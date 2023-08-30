@@ -83,7 +83,7 @@
 }
 
 .contato-home {
-    background-color: #fece02;
+    background-color: var;
     color: #30353E;
     width: 100%;
 }
@@ -146,22 +146,27 @@
     border-radius: 15px !important;
     height: 40px !important;
     width: 100px !important;
-    color: #FECE02 !important;
-    background-color: #FF0751 !important;
+    color: #FF0751 !important;
+    background-color: #FECE02 !important;
     font-weight: bold !important;
 }
 
 .botao-cadastro2:hover {
-    background-color: #fc3e77 !important;
-}
+    background-color: #ffe46a !important;}
 
 .rodape{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #FECE02;
-    margin-top: 20PX;
+    margin-top: 70PX;
     color: black;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape p{
+    margin-left: 15px;
 }
 
 .rodape img{

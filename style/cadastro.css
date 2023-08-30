@@ -110,6 +110,7 @@ main {
     .container2 {
         align-items: flex-start;
     }
+    
 }
 
 /* Additional styles */
@@ -168,5 +169,6 @@ input {
 .botao-cadastro:hover {
     background-color: #ffe46a !important;
 }
+
 
 
