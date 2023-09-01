@@ -131,6 +131,38 @@
     width: 80%;
 }
 
+.botao-cadastro2 {
+    border-radius: 15px !important;
+    height: 40px !important;
+    width: 100px !important;
+    color: #FF0751 !important;
+    background-color: #FECE02 !important;
+    font-weight: bold !important;
+}
+
+.botao-cadastro2:hover {
+    background-color: #ffe46a !important;}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FECE02;
+    margin-top: 70PX;
+    color: black;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape p{
+    margin-left: 15px;
+}
+
+.rodape img{
+    cursor: pointer;
+}
+
+
 /* efeito de escrever */
 .escrevendo {
     margin: auto;
@@ -162,36 +194,6 @@
 
 /* fim do efeito de escrever */
 
-.botao-cadastro2 {
-    border-radius: 15px !important;
-    height: 40px !important;
-    width: 100px !important;
-    color: #FF0751 !important;
-    background-color: #FECE02 !important;
-    font-weight: bold !important;
-}
-
-.botao-cadastro2:hover {
-    background-color: #ffe46a !important;}
-
-.rodape{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #FECE02;
-    margin-top: 70PX;
-    color: black;
-    bottom: 0;
-    width: 100%;
-}
-
-.rodape p{
-    margin-left: 15px;
-}
-
-.rodape img{
-    cursor: pointer;
-}
 
 
 
