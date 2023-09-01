@@ -139,8 +139,28 @@
     border-right:4px solid;
     white-space: nowrap;
     overflow: hidden;
-    animation: digitando 2.5s steps(14) infinite alternate, piscando 0.5s infinite step-end alternate;
+    animation: digitando 3.5s steps(22) infinite alternate, piscando 0.5s infinite step-end alternate;
 }
+
+@keyframes digitando{
+    0%{
+        width: 0;
+    }
+    80%, 100%{
+        width: 22ch;
+    }
+
+}
+
+@keyframes piscando{
+    50%{
+        border-color: transparent;
+    }
+}
+
+@media (max-width: 800px) {
+
+/* fim do efeito de escrever */
 
 .botao-cadastro2 {
     border-radius: 15px !important;
@@ -173,25 +193,7 @@
     cursor: pointer;
 }
 
-@keyframes digitando{
-    0%{
-        width: 0;
-    }
-    80%, 100%{
-        width: 14ch;
-    }
 
-}
-
-@keyframes piscando{
-    50%{
-        border-color: transparent;
-    }
-}
-
-@media (max-width: 800px) {
-
-/* fim do efeito de escrever */
 
     .bg-principal {
         background-image: url(/img/bg-principal.svg); 
