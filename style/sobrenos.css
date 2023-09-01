@@ -214,7 +214,7 @@
     color: #FF0751;
     text-align: center;
     font-family: Rajdhani;
-    font-size: 48px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -229,14 +229,17 @@
 }
 
 #textofinal1 {
+    margin-top: 40px;
     width: 100%;
     color: #FF0751;
     text-align: center;
     font-family: Rajdhani;
-    font-size: 62px;
+    font-size: 26 px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 77px;
+    font-family: Rajdhani;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
     /* 124.194% */
 }
 
@@ -270,13 +273,21 @@ opacity: 0.05;
     .aquievitoria{
         display: flex;
     }
-    .text1,.text2,.textoprincipal,.p1,#textofinal1,#textofinal2,.aquievitoria,.main{
+    .text2,.p1,#textofinal1,#textofinal2,.aquievitoria,.main{
         text-align: center;
         font-family: Roboto;
-        font-size: 13px;
+        font-size: 22px;
         font-style: normal;
         font-weight: 400;
         line-height: 34px;
+    }
+
+    .text1, .textoprincipal {
+        font-family: Rajdhani;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height:57px;
     }
  }
  .main{
@@ -287,7 +298,7 @@ opacity: 0.05;
 .p1{
     color: #FF0751;
 font-family: Rajdhani;
-font-size: 17px;
+font-size: 22px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px; /* 118.519% */
