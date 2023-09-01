@@ -190,13 +190,13 @@
     }
 }
 
-@media (max-width: 800px) {
+
 
 /* fim do efeito de escrever */
 
 
 
-
+@media (max-width: 800px) {
     .bg-principal {
         background-image: url(/img/bg-principal.svg); 
         background-repeat: no-repeat; 
