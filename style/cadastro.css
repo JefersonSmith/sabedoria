@@ -9,173 +9,20 @@ body, h1, h2, p, label, input, button {
 margin: 30px;
 }
 
-.card-body {
-    margin: 15px;
-    
+div.card-header {
+    background-color: lightslategrey;
 }
 
+div.card-body {
+    background-color: khaki;
+}
 main {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 50px;
+    background-color: gainsboro;
+    border-radius: 10px;
 }
 
-/* Basic styles for different screen sizes */
-.container1 {
-    text-align: center;
-    padding: 20px;
-    color: #FF0751;
-}
-
-.buttons {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    font-size: 20px;
-    background-color:#FECE02;
-    color: #FF0751;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-  }
-  
-  .buttons:hover {
-    background-color:  #4AE2D9;
-    transform: scale(1.05);
-  }
-.container2 {
-    max-width: 820px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    margin: auto;
-}
-
-.container2 div h2 {
-    color: #FF0751;
-}
-
-/* Estilos para a div .container2 */
-
-.imagem_cadastra_monitor {
-    flex: 1;
-    text-align: center;
-}
-
-.imagem_cadastra_monitor img {
-    max-width: 100%;
-    height: auto;
-}
-
-.container2 > div {
-    flex: 1;
-    padding: 20px;
-    background-color: #FECE02;
-    border-radius: 5px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Restante dos estilos... */
-
-
-.imagem_cadastra_monitor img {
-    max-width: 100%;
-    height: auto;
-}
-
-.signup-container {
-    width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-}
-
-.signup-container h2 {
-    color: #FF0751;
-}
-
-
-/* Media queries for responsiveness */
-@media screen and (min-width: 768px) {
-    /* Tablet styles */
-    .container2 {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .imagem_cadastra_monitor {
-        margin-right: 20px;
-    }
-
-    .signup-container {
-        width: 60%;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    /* Desktop styles */
-    .container2 {
-        align-items: flex-start;
-    }
-}
-
-/* Additional styles */
-h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 20px;
-    text-shadow: 2px 4px 5px #eee;
-    line-height: 1.5rem;
-}
-
-label {
-    display: block;
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 5px;
-}
-
-input {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    background-color: #4AE2D9;
-}
-
-.checkbox-label {
-    font-size: 14px;
-    color: #333;
-    display: block;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.botao-cadastro {
-        border-radius: 15px !important;
-        height: 40px !important;
-        width: 100px !important;
-        color: #FF0751 !important;
-        background-color: #FECE02 !important;
-        font-weight: bold !important;
-}
-
-.botao-cadastro:hover {
-    background-color: #ffe46a !important;
-}
 
 

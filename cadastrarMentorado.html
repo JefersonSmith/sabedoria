@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="/style/cadastros.css">
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
@@ -52,52 +53,59 @@
     </nav>
     <!-- fim navbar -->
     <main>
+        <h3 class="text-center">Cadastro de mentorado</h3>
         <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <hr>
-                    <h3>Cadastro de mentorado</h3>
-                    <hr>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    
+                    
+                    
                     <form>
-                        <div class="form-floating mb-3">
-                            <input name="nome" maxlength="40" type="text" class="form-control" id="floatingInput1">
-                            <label for="floatingInput1">Nome completo</label>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome completo</label>
+                            <input name="nome" maxlength="40" type="text" class="form-control" id="nome">
                         </div>
-                        <div class="form-floating mb-3">
-                            <input name="idade" type="number" class="form-control">
-                            <label for="floatingInput2">Idade</label>
+                        <div class="mb-3">
+                            <label for="idade" class="form-label">Idade</label>
+                            <input name="idade" type="number" class="form-control" id="idade">
                         </div>
-                        <div class="form-floating mb-3">
-                            <input name="profissao" type="text" class="form-control">
-                            <label for="floatingInput3">Profissão</label>
+                        <div class="mb-3">
+                            <label for="profissao" class="form-label">Profissão</label>
+                            <input name="profissao" type="text" class="form-control" id="profissao">
                         </div>
-                        <div class="form-floating mb-3">
-                            <input name="cpf" maxlength="11" type="text" class="form-control">
-                            <label for="floatingInput4">CPF (apenas números)</label>
+                        <div class="mb-3">
+                            <label for="cpf" class="form-label">CPF (apenas números)</label>
+                            <input name="cpf" maxlength="11" type="text" class="form-control" id="cpf">
                         </div>
-                        <div class="form-floating mb-3">
-                            <input name="endereco" type="text" class="form-control">
-                            <label for="floatingInput5">Endereço</label>
+                        <div class="mb-3">
+                            <label for="endereco" class="form-label">Endereço</label>
+                            <input name="endereco" type="text" class="form-control" id="endereco">
                         </div>
-                        <div class="form-floating mb-3">
-                            <input name="email" type="email" class="form-control">
-                            <label for="floatingInput6">Email</label>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input name="email" type="email" class="form-control" id="email">
                         </div>
-                        <div class="form-floating mb-3">
-                            <input name="senha" type="password" class="form-control">
-                            <label for="floatingInput7">Senha</label>
+                        <div class="mb-3">
+                            <label for="senha" class="form-label">Senha</label>
+                            <input name="senha" type="password" class="form-control" id="senha">
                         </div>
-                        <div class="form-floating mb-3">
-                            <input name="imagem" type="file" class="form-control">
-                            <label for="floatingInput8">Imagem de perfil</label>
+                        <div class="mb-3">
+                            <label for="imagem" class="form-label">Imagem de perfil</label>
+                            <input name="imagem" type="file" class="form-control" id="imagem">
                         </div>
-                        <button class="btn btn-primary" type="submit">Cadastrar</button>
-                        <button class="btn btn-secondary" type="reset">Limpar Formulário</button>
+                        <div class="text-center">
+                            <button class="btn btn-primary" type="submit">Cadastrar</button>
+                            <button class="btn btn-secondary" type="reset">Limpar Formulário</button>
+                        </div>
                     </form>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="/img/mulher.png" class="img-fluid rounded" alt="Imagem de perfil">
                 </div>
             </div>
         </div>
     </main>
+    
 
     <!-- Rodapé -->
     <footer class="rodape">
