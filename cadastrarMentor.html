@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/cadastro.css">
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
@@ -53,34 +52,52 @@
     </nav>
     <!-- fim navbar -->
     <main>
-          <div class="card text-center">
-            <div class="card-header">
-                <h2>Junte-se ao nosso time de mentores e faça a diferença</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <hr>
+                    <h3>Cadastro de Mentor</h3>
+                    <hr>
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input name="nome" maxlength="40" type="text" class="form-control" id="floatingInput1">
+                            <label for="floatingInput1">Nome completo</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input name="idade" type="number" class="form-control">
+                            <label for="floatingInput2">Idade</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input name="profissao" type="text" class="form-control">
+                            <label for="floatingInput3">Profissão</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input name="cpf" maxlength="11" type="text" class="form-control">
+                            <label for="floatingInput4">CPF (apenas números)</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input name="endereco" type="text" class="form-control">
+                            <label for="floatingInput5">Endereço</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input name="email" type="email" class="form-control">
+                            <label for="floatingInput6">Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input name="senha" type="password" class="form-control">
+                            <label for="floatingInput7">Senha</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input name="imagem" type="file" class="form-control">
+                            <label for="floatingInput8">Imagem de perfil</label>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Cadastrar</button>
+                        <button class="btn btn-secondary" type="reset">Limpar Formulário</button>
+                    </form>
+                </div>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">Construir, Conectar e Capacitar</h5>
-              <p class="card-text">Nosso compromisso vai além de oferecer mentorias. Estamos construindo uma comunidade onde a
-                experiência encontra a inovação, onde a jornada encontra o impulso. Juntos, estamos transformando a
-                narrativa do envelhecimento e da carreira, pavimentando o caminho para um futuro mais inclusivo,
-                diversificado e próspero.</p>
-              <a href="cadastrarMentor.html" class="btn btn-primary">Inscreva-se agora!</a>
-            </div>
-          </div>
-          <div class="card text-center">
-            <div class="card-header">
-                <h2>Registre-se agora como mentorado e comece a receber orientação e suporte de mentores experientes.</h2>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title"> Explore Oportunidades de Crescimento</h5>
-              <p class="card-text">Como mentorado, você terá a oportunidade de ser guiado por profissionais experientes em sua área de
-                interesse.
-                Nossa comunidade está aqui para oferecer suporte, orientação e conselhos valiosos para ajudá-lo a
-                atingir seus
-                objetivos e maximizar seu potencial. Junte-se a nós para uma jornada de aprendizado mútuo e
-                crescimento.</p>
-              <a href="cadastrarMentorado.html" class="btn btn-primary">Inscreva-se agora!</a>
-            </div>
-          </div>
+        </div>
+        
     </main>
 
     <!-- Rodapé -->
