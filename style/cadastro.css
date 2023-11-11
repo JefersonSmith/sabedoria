@@ -5,6 +5,10 @@ body, h1, h2, p, label, input, button {
     font-family: Arial, sans-serif;
 }
 
+h5.card-title {
+    padding: 5px;
+}
+
 .titulo-1{
     max-width: 1000px;
     display: flex;
@@ -24,8 +28,32 @@ div.container-1 {
     background-color: #FFE7F4;;
     border-radius: 10px;
 }
+div.link {
+    display: flex;
+    justify-content: end;
+    margin: 100px 85px 0 0;
+}
 
 .alinhar-img img {
     width:100%;
 }
 
+div.col-md-8 {
+    display: flex;
+    align-items: center;
+    
+}
+
+div.card-body {
+    margin: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    img.img-fluid {
+        display: none;
+    }
+
+div.card-body {
+    margin: 30px;
+}
+}
