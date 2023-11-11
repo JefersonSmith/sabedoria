@@ -5,24 +5,27 @@ body, h1, h2, p, label, input, button {
     font-family: Arial, sans-serif;
 }
 
-.card {
-margin: 30px;
+.titulo-1{
+    max-width: 1000px;
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+    margin: 0 auto;
 }
 
-div.card-header {
-    background-color: lightslategrey;
+.titulo-1 img {
+    max-width: 200px;
+    height: 30px;
 }
-
-div.card-body {
-    background-color: khaki;
-}
-main {
+div.container-1 {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 50px;
-    background-color: gainsboro;
+    padding: 30px;
+    background-color: #FFE7F4;;
     border-radius: 10px;
 }
 
-
+.alinhar-img img {
+    width:100%;
+}
 
